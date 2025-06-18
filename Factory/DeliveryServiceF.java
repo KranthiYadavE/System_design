@@ -46,6 +46,7 @@ class DeliveryFactory{
 
 
 }
+//CLIENT USAGE
 public class DeliveryServiceF {
     public static void main(String[] args) {
         Delivery bikeDelivery = DeliveryFactory.getDelivery("Bike");
@@ -54,6 +55,9 @@ public class DeliveryServiceF {
         bikeDelivery.deliver();
         carDelivery.deliver();
         droneDelivery.deliver();
+
     }
-    
+    //Benefits:Easy to add new Delivery methods without changing existing code
+//Each DELIVERY METHOD handles its own logic
+//Client code doesn't need to know implementation details
 }

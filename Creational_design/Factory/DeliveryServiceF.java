@@ -1,4 +1,4 @@
-package Factory;
+package Creational_design.Factory;
 interface Delivery{
 
     public void deliver();

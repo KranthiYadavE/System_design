@@ -219,7 +219,7 @@ public class DocumentSystemExample {
         System.out.println("\nOriginal word template after modification (should be unchanged):");
         wordTemplate.display();
 
-        // Simple independence test
+        
         boolean templatesUnchanged = true;
         System.out.println("\n=== Final Verification ===");
         System.out.println("Independence Test: " + (templatesUnchanged ? "✓ PASSED" : "✗ FAILED"));
